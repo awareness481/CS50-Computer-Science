@@ -1,0 +1,21 @@
+1.  A header file in the C standard library
+2.  To define the exact size of the signed/unsigned integer
+3.  
+BYTE: 1 byte
+DWORD: 4
+LONG:  4
+WORD: 2
+4.  Hex: 0x4d42, ascii: BM
+5.  bfSize gives the byte size for BITMAPFILEHEADER, and biSize gives the byte size for BITMAPINFOHEADER
+6.  The origin is the top-left corner instead of bottom-left, just like a cartesian coordinate system
+7.  biBitCount
+8.  If the files dont exist
+9.  Because we're looping over pixes one at a time
+10. 
+Running printf("%lu", sizeof (RGBTRIPLE)); in copy.c gives 3.
+So 4 - ((3 * 3() % 4) % 4 =
+= 4 - (9 % 4) % 4 =
+= 4 - 1 = 3
+The value will be 3
+11. Returns true if it was succesful at setting the file position of the stream to the given offset
+12. the current position offset in the file
