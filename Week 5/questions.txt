@@ -1,0 +1,7 @@
+0.  an invented long word said to mean a lung disease caused by inhaling very fine ash and sand dust.
+1.  returns resource usage measures
+2.  16 (including the 2 structs)
+3.  Because passing a new value would mean copying the values of before and after, which can be slow for structs
+4.  The loops runs until EOF and seperates each string with NUL (/0)
+5.  fscanf stops after a space character
+6.  To prevent any changes in the words we re reading and the dictionary
