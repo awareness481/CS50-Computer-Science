@@ -1,5 +1,3 @@
-_Text copied from http://docs.cs50.net/problems/sentiments/sentiments.html_
-
 # Sentiments
 
 ## Setup
@@ -11,23 +9,7 @@ _Text copied from http://docs.cs50.net/problems/sentiments/sentiments.html_
 6. Define the API secret `$ export API_SECRET=value`    
 7. To run the app, use `$ flask run`
 
-*tl;dr*
-Implement a program that categorizes a word as positive or negative.
-
-`$ ./smile love`    
-:)    
-`$ ./smile hate`    
-:(    
-`$ ./smile Stanford`    
-:|    
-Implement a program that categorizes a user’s tweets as positive or negative.
-
-`$ ./tweets @cs50`    
- 0 hello, @world    
- 1 I love you, @world    
--1 I hate you, @world    
-...
-*Implement a website that generates a pie chart categorizing a user’s tweets.*
-
 
 ![](http://i.imgur.com/7J4dRiK.png?raw=true)
+
+(http://docs.cs50.net/problems/sentiments/sentiments.html)[Week 8 Docs]
