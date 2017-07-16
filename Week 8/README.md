@@ -3,11 +3,11 @@ _Text copied from http://docs.cs50.net/problems/sentiments/sentiments.html_
 # Sentiments
 
 *Requirements*
-Flask
-nltk
-plotly
-termcolor
-twython
+* Flask
+* nltk
+* plotly
+* termcolor
+* twython
 
 *tl;dr*
 Implement a program that categorizes a word as positive or negative.
