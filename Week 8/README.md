@@ -12,4 +12,4 @@
 
 ![](http://i.imgur.com/7J4dRiK.png?raw=true)
 
-(http://docs.cs50.net/problems/sentiments/sentiments.html)[Week 8 Docs]
+[Week 8 Docs](http://docs.cs50.net/problems/sentiments/sentiments.html)
