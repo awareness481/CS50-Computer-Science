@@ -1,0 +1,18 @@
+#!/usr/bin/env python3
+
+# TODO
+from helpers import get_user_timeline
+
+import sys
+
+def main():
+    if (len(sys.argv) != 2):
+        sys.exit("Usage: ./tweets screename")
+        
+    if (get_user_timeline(sys.argv[1])):
+        return get_user_timeline(sys.argv[1])
+    else:
+        sys.exit("Please provide a valid twitter screename")
+
+if __name__ == "__main__":
+    main()
